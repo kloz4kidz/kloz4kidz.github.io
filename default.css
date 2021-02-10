@@ -5,7 +5,7 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #141414 url(images/img01.jpg) repeat;
+	background: #141414 url(images/background.jpg) repeat;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #4F4F4F;
@@ -27,9 +27,6 @@ p {
 	line-height: 180%;
 }
 
-strong {
-}
-
 a {
 	color: #FF5241;
 }
@@ -40,9 +37,6 @@ a:hover {
 
 a img {
 	border: none;
-}
-
-img.border {
 }
 
 img.alignleft {
@@ -72,7 +66,7 @@ ul.style1 li {
 	border-top: 1px solid #CFCFCF;
 }
 
-ul.style1 .first {
+ul .first {
 	padding-top: 0px;
 	border-top: none;
 }
@@ -255,9 +249,7 @@ ul.style1 .first {
 			width: 900px;
 			height: 500px;
 		}
-		
-		
-		
-		
-		
+
+
+
 		

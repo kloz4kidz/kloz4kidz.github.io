@@ -204,6 +204,12 @@ ul.nobullet li {
 	font-size: 2.25em;
 }
 
+#displayed-content span.center {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /** SIDEBAR */
 #sidebar {
 	float: right;
@@ -220,7 +226,7 @@ ul.nobullet li {
 	transition: transform .4s
 }
 
-#sidebar img:hover {
+#sidebar li img:hover {
 	/*transform: scale(2); */
 	transform: translateX(-300px) scale(3);
 }

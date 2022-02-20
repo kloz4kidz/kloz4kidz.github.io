@@ -1,4 +1,4 @@
-const availableButtons = ['appointments', 'how-it-works', 'contact-us']
+const availableButtons = ['appointments', 'how-it-works', 'volunteering']
 const DEFAULT_BUTTON = 'appointments';
 const CONTACT_EMAIL = 'k4kvolunteering@gmail.com';
 

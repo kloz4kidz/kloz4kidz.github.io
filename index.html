@@ -14,7 +14,7 @@
 </head>
 
 <body onload="init()">
-<div id="wrapper" class="container">
+<div id="wrapper">
 	<div id="header">
 		<div id="logo">
 			<span><img src="images/logoWords.jpg" alt="Kloz 4 Kidz"></span>
@@ -24,8 +24,8 @@
 	<div id="menu">
 		<ul>
 			<li><a id="how-it-works-button" data-show="how-it-works">How It Works</a></li>
-			<li><a id="appointments-button" data-show="appointments">Appointments</a></li>
-			<li><a id="contact-us-button" data-show="contact-us">Contact Us</a></li>
+			<li><a id="appointments-button" data-show="appointments">Schedule</a></li>
+			<li><a id="volunteering-button" data-show="volunteering">Volunteering</a></li>
 		</ul>
 	</div>
 	<div id="page">
@@ -36,34 +36,23 @@
 			<div>
 				<p><img src="images/logoPic.jpg" alt="K4K Logo" width="100%"></p>
 				<h4>We proudly serve Snohomish County families in a friendly, positive, affirming atmosphere.</h4>
-				<ul class="nobullet">
-					<li>
-						<img src="images/newspaper.jpg" style="width:auto;max-width:100%" alt="News headline">
-					</li>
-					<li>
-						<div id="573424297603599221" align="center" style="width:auto;max-width:80%;" class="wcustomhtml">
-							<iframe src="https://player.vimeo.com/video/287537007" frameborder="0" allow="autoplay; fullscreen">
-							</iframe>
-						</div>
-					</li>
-					<li><br /></li>
-					<li>
-						<div class="contact-info">
-							<h3>Questions?</h3>
-							Email us at <span class="email">questions@kloz4kidz.com</span>
-						</div>
-					</li>
-				</ul>
+			</div>
+			<div class="sidebar-item">
+				<img class="newspaper-article" src="images/newspaper.jpg" alt="News article: It takes a village to run Kloz 4 Kidz in Marysville">
+			</div>
+			<div id="contact-info" class="sidebar-item">
+				<h3>Questions?</h3>
+				Email us at <span class="email"><strong>questions@kloz4kidz.com</strong></span>
 			</div>
 		</div>
 	</div>
 	<div id="footer">
-		<p>&copy;Copyright 2021-2 by Janet Raynor
-			for <a href="https://www.kloz4kidz.com">Kloz 4 Kidz</a>,
+		<p>
+			<a href="https://www.kloz4kidz.com">Kloz 4 Kidz</a> is
 			a ministry of <a href="http://www.marysvillumc.org">Marysville United Methodist Church</a>
 			and the <a href="https://www.unitedmethodistwomen.org">United Methodist Women</a>.
 			<br />
-			
+			&copy;Copyright 2021-22 by Janet Raynor.
 			All rights reserved.
 		</p>
 	</div>
@@ -138,19 +127,10 @@
 <!-- main page content when Volunteering navigation is selected -->
 <div id="content-volunteering" style="display:none;">
 	<h2>Volunteering</h2>
-	<p>
-	</p>
-</div>
-
-<!-- main page content when Contact navigation is selected -->
-<div id="content-contact-us" style="display:none;">
-	<h2>Contact Us</h2>
-	<p>
-		Have a question or need to get in touch? 
-		<ul>
-			<li>Send us an email at: questions@kloz4kidz.com</li>
-			<li><a href="https://www.facebook.com/Kloz-4-Kidz-172452239445713" target="_blank"><img src="images/facebook.png" height=30/></a>Find us on Facebook </li>
-		</ul>
+	<p>Some of our volunteers share in their own words why they choose to spend their time with Kloz 4 Kidz.
+		<div class="video-container">
+			<iframe src="https://player.vimeo.com/video/287537007" class="video" frameborder="0"  allow="autoplay; fullscreen"></iframe>
+		</div>
 	</p>
 </div>
 

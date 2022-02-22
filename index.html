@@ -2,15 +2,27 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Kloz 4 Kidz</title>
-<link rel="icon" type="image/jpg" href="images/logoPic.jpg" />
-<meta name="keywords" content="" />
-<meta name="description" content="Kloz 4 Kidz is a free clothing resources for school-aged children in Snohomish County" />
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Archivo+Narrow:400,700" rel="stylesheet"
-	type="text/css" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="javascript/k4k.js"></script>
+	<title>Kloz 4 Kidz</title>
+	<link rel="icon" type="image/jpg" href="images/logoPic.jpg" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Kloz 4 Kidz is a free clothing resources for school-aged children in Snohomish County" />
+	
+	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Archivo+Narrow:400,700" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="javascript/k4k.js"></script>
+
+	<!-- Google Analytics global site tag (gtag.js) - -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-S3KCVB8NYC"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'G-S3KCVB8NYC');
+	</script>
 </head>
 
 <body onload="init()">
@@ -33,12 +45,19 @@
 			<!-- dynamically populated -->
 		</div>
 		<div id="sidebar">
-			<div>
-				<p><img src="images/logoPic.jpg" alt="K4K Logo" width="100%"></p>
-				<h4>We proudly serve Snohomish County families in a friendly, positive, affirming atmosphere.</h4>
+			<div class="sidebar-item"> 
+				<img class="hanger-logo aligncenter" src="images/logoPic.jpg" alt="K4K Logo">	
+				<h3 class="image-caption">New to Kloz 4 Kidz?</h3>
+				<p>
+					We are proud to serve Snohomish County families in a friendly, positive, affirming atmosphere.
+				</p>
 			</div>
 			<div class="sidebar-item">
-				<img class="newspaper-article" src="images/newspaper.jpg" alt="News article: It takes a village to run Kloz 4 Kidz in Marysville">
+				<p>Press coverage from the Everett Herald. Click <a>here</a> to read the article</p>
+				<a href="images/everett-herald-article.pdf" target="_blank" class="tooltip">
+					<img class="newspaper-article" src="images/newspaper.png" alt="News article: It takes a village to run Kloz 4 Kidz in Marysville">
+					<span class="tooltiptext">View article</span>
+				</a>
 			</div>
 			<div id="contact-info" class="sidebar-item">
 				<h3>Questions?</h3>
@@ -112,7 +131,7 @@
 		</ol>
 	</p>
 	<p>
-		At this time, we are not providing jeans or coats.  Coats are provided during the winter months and will be available beginning November 1, 2022.  
+		At this time, we are not providing jeans or coats.  Coats are provided during the winter months and will be available beginning November 1.  
 		Jeans will be available again once we are able to to provide fitting rooms.
 	</p>
 	<br>
@@ -128,8 +147,8 @@
 <div id="content-volunteering" style="display:none;">
 	<h2>Volunteering</h2>
 	<p>Some of our volunteers share in their own words why they choose to spend their time with Kloz 4 Kidz.
-		<div class="video-container">
-			<iframe src="https://player.vimeo.com/video/287537007" class="video" frameborder="0"  allow="autoplay; fullscreen"></iframe>
+		<div id="video-container">
+			<iframe src="https://player.vimeo.com/video/287537007" id="video" frameborder="0"  allow="autoplay; fullscreen"></iframe>
 		</div>
 	</p>
 </div>

@@ -68,6 +68,31 @@ ol li.even {
 	color:blue;
 }
 
+.image-caption {
+	padding: 2% 2% 2% 8%;
+	text-align: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #ffffcc;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  left: 65%;
+  top: 125%;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
 img.alignleft {
 	float: left;
 }
@@ -100,10 +125,16 @@ img.aligncenter {
 
 /** LOGO */
 #logo {
-	width: 75%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 30px 0px 30px 0px;
+}
+
+#logo img {
+	margin: 5px;
+	display: block;
+	align-items: center;
 }
 
 #logo span {
@@ -119,6 +150,7 @@ img.aligncenter {
 #menu {
 	padding: 20px 0px;
 	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
 }
 
 #menu ul {
@@ -155,10 +187,11 @@ img.aligncenter {
 
 /** PAGE */
 #page {
+	max-width: 94%;
 	overflow: hidden;
+	margin-left: 3%;
 	padding: 30px 0px;
-	border-top: 1px solid #CFCFCF;
-	border-bottom: 1px solid #CFCFCF;
+	
 }
 
 /** CONTENT */
@@ -179,22 +212,28 @@ img.aligncenter {
 	width: 35%;
 }
 
+img.hanger-logo {
+	width: 90%
+}
+
 .sidebar-item {
 	width: 96%;
-	margin:2%;
+	margin-top: 10%;
 }
 
 img.newspaper-article {
 	width:100%;
 }
-img:hover.newspaper-article {
+
+/* img:hover.newspaper-article {
 	transform: translateX(-300px) scale(3);
-}
+} */
 
 /* Footer */
 #footer {
-	width: 90%;
+	width: 100%;
 	padding: 2% 0 4% 0;
+	border-top: 1px solid #CFCFCF;
 }
 
 #footer p {
@@ -207,20 +246,16 @@ img:hover.newspaper-article {
 	text-decoration: none;
 }
 
-
-
-
-
-.video-container {
+#video-container {
 	position: relative;
 	padding-top: 56.26%;
    }
    
-   .video {
+#video {
 	position: absolute;
 	top: 0;
 	left: 0;
 	margin-left: 5%;
 	width: 85%;
 	height: 85%;
-   }
+}

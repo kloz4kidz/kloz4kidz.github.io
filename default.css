@@ -45,7 +45,8 @@ a img {
 
 li {
 	padding: 8px;
-	line-height: 160%
+	line-height: 160%;
+	margin: 2px;
 }
 
 li.odd {
@@ -217,7 +218,7 @@ img.hanger-logo {
 
 .sidebar-item {
 	width: 96%;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 img.newspaper-article {
